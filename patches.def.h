@@ -132,7 +132,7 @@
 /* This patch adds the option of disabling bold fonts globally.
  * https://st.suckless.org/patches/disable_bold_italic_fonts/
  */
-#define DISABLE_BOLD_FONTS_PATCH 0
+#define DISABLE_BOLD_FONTS_PATCH 1
 
 /* This patch adds the option of disabling italic fonts globally.
  * https://st.suckless.org/patches/disable_bold_italic_fonts/
