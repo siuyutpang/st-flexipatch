@@ -224,10 +224,10 @@ static const char *colorname[] = {
 unsigned int defaultbg = 0;
 unsigned int bg = 17, bgUnfocused = 16;
 #else
-unsigned int defaultbg = 258;
+unsigned int defaultbg = 256;
 #endif // ALPHA_FOCUS_HIGHLIGHT_PATCH
-unsigned int defaultfg = 259;
-unsigned int defaultcs = 256;
+unsigned int defaultfg = 257;
+unsigned int defaultcs = 257;
 unsigned int defaultrcs = 257;
 #if SELECTION_COLORS_PATCH
 unsigned int selectionfg = 258;
@@ -266,7 +266,7 @@ static Rune stcursor = 0x2603; /* snowman (U+2603) */
  * 6: Bar ("|")
  * 7: Snowman ("☃")
  */
-static unsigned int cursorshape = 2;
+static unsigned int cursorshape = 6;
 #endif // BLINKING_CURSOR_PATCH
 
 /*
